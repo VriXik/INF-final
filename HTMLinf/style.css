@@ -1,10 +1,16 @@
 html{
     background-color: #000000;
     color: aliceblue;
+    scroll-behavior: smooth;
 }
 
 body{
     font-family: Corbel;
+}
+
+img {
+    border-radius: 5px;
+
 }
 
 .main {
@@ -54,6 +60,7 @@ body{
     padding: 10px;
     column-gap: 10px;
 }
+
 .grid-item {
     background-color: #1a001a;
     border: none;
@@ -67,3 +74,57 @@ body{
     background-color: #1a001a;
     border-radius: 20px;
 }
+
+.mithsubishi{
+    padding-left: 150px;
+    padding-right: 20px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: white;
+    color: black;
+}
+
+.modely {
+    padding: 20px;
+    display: grid;
+    background-color: #1a001a;
+    border-radius: 20px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: black;
+    padding: 10px;
+    column-gap: 10px;
+}
+
+.modely img {
+    text-align: center;
+    padding: 30px;
+    border-radius: 35px;
+}
+
+.modely h1 {
+    font-style: oblique;
+    font-size: 20px;
+}
+
