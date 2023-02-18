@@ -41,7 +41,7 @@ img {
 .mainText h2{
     font-weight: bold;
     font-size: 90px;
-    line-height: 0px
+    line-height: 0px;
 
 }
 
@@ -51,6 +51,10 @@ img {
     font-size: 50px;
     line-height: 0px;
     font-family: "Arial Rounded MT Bold";
+}
+
+.mainText img {
+    padding-top: 50px;
 }
 
 .grid-container {
@@ -82,11 +86,10 @@ img {
 
 .navbar {
     overflow: hidden;
-    background-color: black;
+    background-color: #000000;
     position: fixed;
-    top: 0;
-    width: 100%;
-
+    top: 0px;
+    width: auto;
 }
 
 .navbar a {

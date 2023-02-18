@@ -13,6 +13,52 @@ img {
 
 }
 
+.main {
+    background: url("./img/modely-main/Trumpwallpapers - Japan Wallpapers.png"), no-repeat;
+    background-position-y: bottom;
+    background-size: cover;
+    padding: 0px;
+    height: 588px;
+}
+
+.mainBox {
+    display: grid;
+    height: 70vh;
+    align-content: center;
+    margin: 0px;
+}
+
+.mainText {
+    text-align: center;
+    color: aliceblue;
+}
+
+.mainText h1{
+    font-weight: bolder;
+    font-size: 150px;
+    line-height: 0px
+}
+
+.mainText h2{
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 0px
+
+}
+
+.mainText h3{
+    font-style: italic;
+    font-weight: initial;
+    font-size: 50px;
+    line-height: 0px;
+    font-family: "Arial Rounded MT Bold";
+}
+
+.mainText img {
+    padding-top: 0px;
+    height: 150px;
+}
+
 .navbar {
     overflow: hidden;
     background-color: black;
@@ -55,9 +101,38 @@ img {
     text-align: center;
     padding: 30px;
     border-radius: 35px;
+    height: 200px;
 }
 
 .modely h1 {
     font-style: oblique;
     font-size: 20px;
+}
+
+.center {
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+
+.center a {
+    color: white;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+#GT-R {
+    scroll-margin-block-start: 75px;
+}
+#AE86 {
+    scroll-margin-block-start: 75px;
+}
+#silvia {
+    scroll-margin-block-start: 75px;
+}
+#supra {
+    scroll-margin-block-start: 75px;
+}
+#MR-2 {
+    scroll-margin-block-start: 75px;
 }
