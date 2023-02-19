@@ -5,26 +5,77 @@ html{
 }
 
 body{
-    font-family: Corbel;
+    font-family: Corbel, serif;
+    /* IE and Edge */
+    -ms-overflow-style: none;
+    /* Firefox */
+    scrollbar-width: none;
+}
+
+/* Chrome, Safari and Opera (scrollbar)*/
+body::-webkit-scrollbar {
+    display: none;
 }
 
 img {
     border-radius: 5px;
-
 }
+
+/*NAVBAR*/
+
+.navbar {
+    background-color: #000000;
+    top: 0;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: white;
+    color: black;
+}
+
+/*IMAGES*/
+
+.mithsubishi {
+    height: 190px;
+}
+
+.nissanSkyline{
+    width: 350px;
+}
+
+.arrowDown{
+    height: 150px;
+}
+
+/*MAIN*/
 
 .main {
     background: url("img/cars-6248509 (1).png   "), no-repeat;
+    right: 0;
+    left: 0;
     background-position-y: bottom;
     background-size: cover;
-    padding: 0px;
+    padding: 0;
 }
 
 .mainBox {
     display: grid;
     height: 100vh;
     align-content: center;
-    margin: 0px;
+    margin: 0;
 }
 
 .mainText {
@@ -35,13 +86,13 @@ img {
 .mainText h1{
     font-weight: bolder;
     font-size: 150px;
-    line-height: 0px
+    line-height: 0
 }
 
 .mainText h2{
     font-weight: bold;
     font-size: 90px;
-    line-height: 0px;
+    line-height: 0;
 
 }
 
@@ -49,8 +100,8 @@ img {
     font-style: italic;
     font-weight: initial;
     font-size: 50px;
-    line-height: 0px;
-    font-family: "Arial Rounded MT Bold";
+    line-height: 0;
+    font-family: "Arial Rounded MT Bold", serif;
 }
 
 .mainText img {
@@ -82,28 +133,6 @@ img {
 .mithsubishi{
     padding-left: 150px;
     padding-right: 20px;
-}
-
-.navbar {
-    overflow: hidden;
-    background-color: #000000;
-    position: fixed;
-    top: 0px;
-    width: auto;
-}
-
-.navbar a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.navbar a:hover {
-    background: white;
-    color: black;
 }
 
 .modely {

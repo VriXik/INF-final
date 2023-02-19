@@ -22,10 +22,35 @@ img {
 
 }
 
+/*NAVBAR*/
+
+.navbar {
+    background-color: #000000;
+    top: 0;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: white;
+    color: black;
+}
+
 .main {
     right: 0;
     left: 0;
-    background: url("./img/modely-main/Rozptyl-stran-Trumpwallpapers - Japan Wallpapers.png"), no-repeat;
+    background: url("./img/osobnosti/main/japan-header-osobnosti-tmavastrana.webp"), no-repeat;
     background-position-y: bottom;
     background-size: cover;
     padding: 0;
@@ -70,56 +95,45 @@ img {
     height: 150px;
 }
 
-/*NAVBAR*/
-
-.navbar {
-    background-color: #000000;
-    top: 0;
-    position: fixed;
-    left: 50%;
-    transform: translate(-50%, 0);
-    width: 100%;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    padding: 0 10px 10px;
+    column-gap: 10px;
 }
 
-.navbar a {
-    float: left;
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.grid-item {
+    background-color: #1a001a;
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-.navbar a:hover {
-    background: white;
-    color: black;
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    padding: 10px;
+    column-gap: 10px;
 }
 
-.modely {
+.Akio-Toyota {
     padding: 20px;
     display: grid;
     background-color: #1a001a;
     border-radius: 20px;
 }
 
-.grid-container2 {
-    display: grid;
-    grid-template-columns: auto;
-    background-color: black;
-    padding: 0 10px 10px;
-    column-gap: 10px;
+.imageConteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
-.modely img {
-    text-align: center;
-    padding: 30px;
-    border-radius: 35px;
-    height: 200px;
-}
-
-.modely h1 {
-    font-style: oblique;
-    font-size: 20px;
+.image {
+    padding-left: 10px;
+    flex-basis: 60%;
 }
 
 .center {
@@ -134,18 +148,18 @@ img {
     padding-left: 8px;
 }
 
-#GT-R {
+#Akio {
     scroll-margin-block-start: 75px;
 }
-#AE86 {
+
+#Honda {
     scroll-margin-block-start: 75px;
 }
-#silvia {
+
+#Takumi {
     scroll-margin-block-start: 75px;
 }
-#supra {
-    scroll-margin-block-start: 75px;
-}
-#MR-2 {
+
+#Smokey {
     scroll-margin-block-start: 75px;
 }
