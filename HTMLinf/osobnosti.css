@@ -48,13 +48,10 @@ img {
 }
 
 .main {
-    right: 0;
-    left: 0;
-    background: url("./img/osobnosti/main/japan-header-osobnosti-tmavastrana.webp"), no-repeat;
+    background: url("./img/osobnosti/main/japan-header-osobnosti-tmavastrana.webp"), no-repeat, center;
     background-position-y: bottom;
     background-size: cover;
-    padding: 0;
-    height: 588px;
+
 }
 
 .mainBox {
