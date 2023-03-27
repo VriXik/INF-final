@@ -118,7 +118,7 @@ img {
 
 .grid-item {
     background-color: #1a001a;
-    border: none;
+    border: solid, white;
     padding: 20px;
     border-radius: 20px;
 }
